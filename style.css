@@ -1,0 +1,229 @@
+*{margin: 0; box-sizing: border-box; 
+scroll-behavior: smooth}
+body{
+       background: #0F141B;
+}
+.menu{
+    background-color: #0f141b;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.menu-item{
+    color: white;
+    margin: 0 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu-item:hover{
+    color: gold;
+}
+.header{
+    background-image: url("img/cs-go-counter-strike-global-offensive-sas-team-black-2880x1800-22447.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.server{
+    background: #0F141B;
+    height: 60vh;
+    padding: 0 100px;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 800px;
+}
+.server-img{
+    width: 600px;
+    float: right;
+    margin-left: 40px;
+}
+.server-text{
+    color: white;
+}
+.server-header{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 40px 0;
+}
+.admins{
+     text-align: center;
+    font-size: 60px;
+    color: white;
+    padding: 40px 0;
+    background-color: #0F141B;
+     max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.admins-img{
+    width: 300px;
+    height: 199.8px;
+    object-fit: cover;
+}
+.admins-card{
+    display:inline-block;
+    background-color: #222B37;
+    color: black;
+    padding: 10px;
+    box-shadow: 0 10px 10px black;
+    margin-top: 15px;
+    
+}
+.admins-card-title{
+ font-size: 30px; 
+ font-weight: bold;
+margin-bottom: 10px;
+  color: white;    
+}
+.admins-position{
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px; 
+}
+.admins-card-buttom{
+    font-size: 16px;
+    background: black;
+    padding: 20px 60px;
+    color: white;
+}
+.admins-title{
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.tarifs{
+    background-color: #0F141B;
+    text-align: center;
+    padding: 40px 0;
+     max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.tarifs-title{
+      text-align: center;
+      color: white;
+      font-size: 50px;
+      margin-bottom: 40px;
+}
+.tarifs-card{
+    font-size: 30px;
+    width: 25%;
+    background-color: #222B37; 
+    display: inline-block;
+    margin: 20px;
+}
+.tarif-card-button{
+    background-color: #222B37;
+    border:none;
+    font-size: 25px;
+}
+ol{
+    list-style:none;
+    padding: 0;
+}
+.tarif-card-title{
+    background-color: black;
+    color: white;   
+}
+.tarifs-card li{
+    padding: 10px 0;
+    text-align: center;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+.tarif-card-button{
+    background: black;
+    padding: 10px 30px;
+    color: gray;
+    outline: none;
+}
+.tarif-card-button:hover{
+    color: gold;
+    background: red;
+}
+.tarifs-card:nth-child(3){
+    background: gold;
+    transform: scale(1.1)
+}
+.reg{
+    background-color: #0F141B;
+    color: white;
+    box-sizing: border-box;
+     max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.reg-form-input{
+    background-color: #222B37;
+    border-radius: 10px;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    color: white;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    
+}
+.reg-form-title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.reg-form-button{
+    background-color: gold;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    display: block;
+    margin: auto;
+}
+.reg-form{
+    width: 600px;
+    margin: auto;
+    background: linear-gradient(to right,#0F2027,#203A43,#2C5364);
+    padding: 30px;
+}
+@media(max-width:950px){
+    .menu-item{
+        display: block;
+        width: 100%;
+        margin-top:20px;
+        margin-left: 0;
+        
+    }
+}
+@media(max-width:800px){
+    .server-img{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    .reg-form{
+        width: 100%;
+    }
+    .tarifs-card{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .server{
+        padding: 0;
+    }
+    h2{
+        font-size: 30px !important;
+    }
+    .admins-card{
+        
+    }
+}
+@media(max-width:500px){
+    .admins-card{
+       width: 100%;
+       margin: 20px auto;
+    }
+}
